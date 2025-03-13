@@ -18,7 +18,8 @@ function App() {
 
   return (
     <main>
-      <button onClick={signOut}>Sign out</button>- <h1>{user?.username}</h1>
+      <button onClick={signOut}>Sign out</button>
+      <h1>{user?.username}</h1>
       <StorageBrowser />
     </main>
   );
